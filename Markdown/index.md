@@ -22,7 +22,7 @@ VSCode の有名な拡張機能として
 - [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
   VSCode 標準を超える Markdown ビューワー. HTML などへのエクスポートもできる.
 
-の 2 つがあり, これを導入することで Markdown を効率的に記述することができる. 元祖 Markdown では定義されていない数式なども扱うことができるようになる.
+の 2 つがあり, これを導入することで Markdown を効率的に記述することができる. 元祖 Markdown では定義されていない記法も扱うことができるようになる.
 
 学習リソースは色々あり, 「Markdown tutorial」などで検索すれば多数見つかる. 例えば
 
@@ -167,6 +167,14 @@ $$
 
 のように`$$ formula $$`を用いる.
 
+````
+```math
+a=b
+```
+````
+
+を使っても同様.
+
 $$
 \begin{align*}
     X &= 3X \\ &= 5X \\ &=7X
@@ -204,7 +212,7 @@ class C:
 
 ### Mermaid
 
-UML 図やグラフなど, 多彩な表現をしたいときは, `language=mermaid`で Mermaid を用いると表現力が高い. [Mermaid 公式ドキュメント](https://mermaid.js.org/)は必見.GitHub, Azure Devops などでサポートされる.
+UML 図やグラフなど, 多彩な表現をしたいときは, `language=mermaid`で Mermaid を用いると表現力が高い. [Mermaid 公式ドキュメント](https://mermaid.js.org/)は必見. GitHub, Azure Devops などでサポートされる.
 
 - フローチャート
 
